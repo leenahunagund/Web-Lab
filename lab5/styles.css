@@ -1,0 +1,76 @@
+body{
+	text-align:center;
+	font-family:sans-serif;
+	color:rgb(255,255,255);
+	margin-top:0px;
+}
+#index-body{
+	background-image:url("https://afocus.dev/wp-content/uploads/2020/06/development-outsource-web-develeopment.jpg");
+	background-repeat:no-repeat;
+	background-color:rgba(0,0,0,0.2);
+	backdrop-filter:blur(10px);
+	background-size:cover;
+}
+#front-body{
+	background-image:url("https://wscats.gallerycdn.vsassets.io/extensions/wscats/html-snippets/1.0.6/1607691009387/Microsoft.VisualStudio.Services.Icons.Default");
+	backdrop-filter:blur(10px);
+	background-repeat:no-repeat;
+	background-color:rgba(0,0,0,0.2);
+	color:rgb(4,62,18);
+	font-weight:bold;
+	background-size:cover;
+}
+#back-html{
+	background-image:url("https://www.asynclabs.co/wp-content/uploads/2021/05/How_to_Choose_the_Right_Backend_Technology_for_Your_App_cover-1.png");
+	background-repeat:repeat;
+	background-position:center;
+	background-size:cover;
+	background-color:rgba(0,0,0,0.2);
+	height:100%
+}
+#back-body{
+	backdrop-filter:blur(10px);
+	margin:2rem 5rem;
+	margin-top:5rem;
+}
+ul{
+	list-style:none;
+}
+h1{
+	font-family:"Sego UI",Tahoma, Geneva,Verdana, Sans-Serif;
+	font-size:4rem;
+	color:rgb(53,202,202);
+}
+p{
+	font-family:Cambria,Cochin,Georgia,Times,"Times New Roman",serif;
+	font-size:1.5rem;
+}
+li{
+	font-family:"Courier New", courier,monospace;
+	font-size:1.5rem;
+	display:inline-block;
+	margin:2.5rem;
+	transition:ease-in-out 0.55;
+}
+a{
+	text-decoration:none;
+	color:black;
+	padding:0.5rem 2.5rem;
+	background-color:aqua;
+	border-radius:6px;
+}
+a:active{
+	background-color:blue;
+}
+a:visited{
+	background-color:CadetBlue;
+	color:lawngreen;
+}
+a:hover{
+	background-color:lightseagreen;
+	color:aqua;
+}
+li:hover{
+	transform:scale(1.2,1.2);
+	transition:ease-in-out 0.5s;
+}
